@@ -48,3 +48,18 @@ my_dict = {               #Оформляется как set, но с други
      'nickname': 'Uchiha'
      }
 print(my_dict['name']) #Поиск данных происходит через ключ, к которому они привязаны
+
+my_dict['age'] = 26 #Происходит перезапись данных
+print(my_dict)
+my_dict['city'] = 'Tokio' #Задаем новый ключ и привязываем к нему данные
+
+for element in my_dict:
+     print(element) #При таком обращении мы увидим только ключи
+    
+for key in my_dict:
+     print(my_dict[key]) #При таком обращении мы увидим только данные
+
+for key in my_dict:
+     print(key, my_dict[key]) #Ключ и значение вернутся через пробел
+
+print(f'{key}: {my_dict[key]}') #Ключ и значение вернутся через :
