@@ -27,3 +27,5 @@ print (my_tuple[4])
 for element in my_tuple:
      print (element)
 #В кортеже, в отличие от списка, нельзя менять элементы
+
+my_tuple = [1, 2, "test"] #Переписываем старый touple. Прежняя версия удаляется
