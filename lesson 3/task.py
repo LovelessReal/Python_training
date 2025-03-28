@@ -23,3 +23,6 @@ for x in numbers:
 #Тип данных кортеж - tuple
 
 my_tuple = (1, 2, 5, 'test', False) #Тоже поддерживает работу со всеми типами данных
+print (my_tuple[4])
+for element in my_tuple:
+     print (element)
